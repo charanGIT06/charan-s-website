@@ -1,10 +1,10 @@
 import "../css/aboutMe.css";
 import { Link } from "react-router-dom";
 import profilePhoto from "../img/profile-photo.png";
-import github from "/public/img/github.svg";
-import linkedin from "/public/img/linkedin.svg";
-import mail from "/public/img/mail.svg";
-import instagram from "/public/img/instagram.svg";
+import github from "../img/github.svg";
+import linkedin from "../img/linkedin.svg";
+import mail from "../img/mail.svg";
+import instagram from "../img/instagram.svg";
 
 const AboutMe = () => {
   return (

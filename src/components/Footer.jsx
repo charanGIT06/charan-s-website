@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import github from "/public/img/github.svg";
-import linkedin from "/public/img/linkedin.svg";
-import instagram from "/public/img/instagram.svg";
-import mail from "/public/img/mail.svg";
+import github from "../img/github.svg";
+import linkedin from "../img/linkedin.svg";
+import instagram from "../img/instagram.svg";
+import mail from "../img/mail.svg";
 
 const Footer = () => {
   return (

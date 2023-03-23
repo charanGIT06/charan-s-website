@@ -1,9 +1,9 @@
 import "../css/projects.css";
 import ProjectContainer from "../components/ProjectContainer.jsx";
-import faceTracking from "/public/img/face-mesh.png";
-import tweetSpam from "/public/img/tweet-spam.png";
-import examPortal from "/public/img/mcq-zone.png";
-import portfolio from "/public/img/portfolio.png";
+import faceTracking from "../img/face-mesh.png";
+import tweetSpam from "../img/tweet-spam.png";
+import examPortal from "../img/mcq-zone.png";
+import portfolio from "../img/portfolio.png";
 
 const Projects = () => {
   return (

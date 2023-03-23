@@ -1,12 +1,12 @@
 import "../css/aboutMe.css";
 import { Link } from "react-router-dom";
 import profilePhoto from "/public/img/profile-photo.png";
+import github from "/public/img/github.svg";
+import linkedin from "/public/img/linkedin.svg";
+import mail from "/public/img/mail.svg";
+import instagram from "/public/img/instagram.svg";
 
 const AboutMe = () => {
-  const github = "public/img/github.svg";
-  const linkedin = "public/img/linkedin.svg";
-  const mail = "public/img/mail.svg";
-  const instagram = "public/img/instagram.svg";
   return (
     <div className="hero d-flex flex-column flex-md-row align-items-center justify-content-center">
       <div className="box"></div>

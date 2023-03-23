@@ -1,11 +1,11 @@
 import "../css/projects.css";
 import ProjectContainer from "../components/ProjectContainer.jsx";
+import faceTracking from "/public/img/face-mesh.png";
+import tweetSpam from "/public/img/tweet-spam.png";
+import examPortal from "/public/img/mcq-zone.png";
+import portfolio from "/public/img/portfolio.png";
 
 const Projects = () => {
-  const faceTracking = "./src/img/face-mesh.png";
-  const tweetSpam = "./src/img/tweet-spam.png";
-  const examPortal = "./src/img/mcq-zone.png";
-  const portfolio = "./src/img/portfolio.png";
   return (
     <div className="projects-page">
       <div className="heading-container d-flex flex-row align-items-center justify-content-center mb-4">

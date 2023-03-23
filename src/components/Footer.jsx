@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
+import github from "/public/img/github.svg";
+import linkedin from "/public/img/linkedin.svg";
+import instagram from "/public/img/instagram.svg";
+import mail from "/public/img/mail.svg";
 
 const Footer = () => {
-  const github = "../src/img/github.svg";
-  const linkedin = "../src/img/linkedin.svg";
-  const instagram = "../src/img/instagram.svg";
-  const mail = "../src/img/mail.svg";
   return (
     <div className="footer d-flex flex-column flex-md-row justify-content-center py-5">
       <div className="footer-links py-4 px-5">

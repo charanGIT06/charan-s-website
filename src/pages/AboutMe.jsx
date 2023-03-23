@@ -1,6 +1,6 @@
 import "../css/aboutMe.css";
 import { Link } from "react-router-dom";
-import profilePhoto from "/public/img/profile-photo.png";
+import profilePhoto from "../img/profile-photo.png";
 import github from "/public/img/github.svg";
 import linkedin from "/public/img/linkedin.svg";
 import mail from "/public/img/mail.svg";

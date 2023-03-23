@@ -6,7 +6,7 @@
 }
 
 .contact-card {
-  background-color: var(--light-cream);
+  background-color: #ffff !important;
   margin: 0 auto;
 }
 .label {

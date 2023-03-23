@@ -1,0 +1,33 @@
+.project-img {
+  height: 100% !important;
+  width: 100% !important;
+}
+.demo-link,
+.repo-link {
+  text-decoration: none;
+  padding-right: 1.5rem;
+}
+
+.demo-link {
+  color: var(--blue) !important;
+}
+.demo-link:hover,
+.repo-link:hover {
+  font-weight: 800;
+}
+
+.repo-link {
+  color: #111;
+}
+.project-title {
+  border-left: 6px solid var(--blue);
+}
+.project-description,
+.btn-container {
+  border-left: 6px solid white;
+}
+
+.footer a {
+  text-decoration: none !important;
+  color: black;
+}

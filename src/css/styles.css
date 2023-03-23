@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;800&display=swap");
+
+:root {
+  --blue: #0056fa;
+  --cream: #e6dacf;
+  --light-cream: #f4ece6;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+}
+
+.blue-heading {
+  color: var(--blue);
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+/* .link {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0;
+  color: black;
+}
+.link:hover {
+  color: var(--blue);
+} */
+
+/* .links {
+  margin-left: auto;
+} */
+/* .hero {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+} */
+
+.hello {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.overlap {
+  height: 500px;
+  width: 80%;
+  background-color: #ffff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 100px;
+}
+
+.btn {
+  padding: 10px 50px !important;
+  border-radius: 25px !important;
+}
+
+.blue-line {
+  height: 3px;
+  width: 150px;
+  background-color: var(--blue);
+}
+
+.btn-blue {
+  color: #ffff !important;
+  background-color: var(--blue) !important;
+  border: 2px solid var(--blue) !important;
+}
+.btn-blue:hover {
+  background-color: #ffff !important;
+  color: var(--blue) !important;
+}
+.btn-outline {
+  border: 2px solid black !important;
+}
+.btn-outline:hover {
+  background-color: black !important;
+  color: #ffff !important;
+}
+
+.blue-dot {
+  height: 16px;
+  width: 16px;
+  background-color: var(--blue);
+}
+
+/* PROJECTS PAGE */
+.projects-page {
+  font-family: poppins, sans-serif;
+  background-color: var(--cream);
+  height: auto;
+  padding: 2rem 0;
+}
+.heading {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.blue-bar {
+  height: 35px;
+  width: 5px;
+  background-color: var(--blue);
+  position: absolute;
+  top: 8%;
+  left: 0;
+}
+.project-card {
+  background-color: #ffff;
+  /* width: 65% !important; */
+  margin: 0 auto;
+  position: relative;
+}
+
+.project-heading {
+  color: var(--blue);
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.footer-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  padding: 0;
+  margin: 0;
+}

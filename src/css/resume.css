@@ -1,0 +1,61 @@
+.resume-page {
+  font-family: poppins, sans-serif;
+  background-color: var(--cream);
+  height: auto;
+  padding: 2rem 0;
+}
+.headings-container {
+  margin: 0 auto;
+}
+.resume-heading {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.resume-btn {
+  margin-left: auto;
+  height: 2.5rem !important;
+  padding: 0.5rem 2rem !important;
+}
+
+.resume-card {
+  margin: 0 auto;
+  background-color: #ffff !important;
+  font-size: 1.5rem;
+}
+.education-cards {
+  margin: 0 auto;
+  padding: 0;
+}
+/* @media (min-width: 450px) {
+  .education-card {
+    transform: rotate(-15deg);
+    transition: all ease-in .5s;
+  }
+
+  .education-card:hover {
+    transform: rotate(0deg);
+    transition: all ease-out 0.5s;
+  }
+} */
+.item {
+  font-size: 1.3rem;
+}
+.other {
+  margin: 0 auto;
+  background-color: none;
+}
+.other-info {
+  background-color: #ffff !important;
+}
+.second-card {
+  margin-top: 3rem;
+}
+.third-card {
+  margin-top: 6rem;
+}
+.degree {
+  font-weight: 300;
+}
+.location {
+  font-size: 1.2rem;
+}

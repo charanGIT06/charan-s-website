@@ -1,0 +1,77 @@
+:root {
+  --blue: #0056fa;
+  --cream: #e6dacf;
+  --light-cream: #f4ece6;
+}
+
+/* .hero {
+  height: 90vh;
+} */
+.hero-left {
+  background-color: var(--cream);
+  height: 100%;
+}
+/* .hero-right {
+  height: 100%;
+} */
+@media (max-width: 450px) {
+  .hero-left {
+    background-color: white;
+  }
+  .hero-right {
+    background-color: var(--cream);
+  }
+}
+
+.name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.hello {
+font-weight: 700;
+}
+
+.hero-para {
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.hero-text {
+  font-size: 20px;
+  text-align: left;
+}
+.container {
+  margin: auto 0;
+}
+
+.profile-photo {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  margin: 50px;
+}
+.socials {
+  height: 80px;
+  width: 100%;
+}
+
+/* ICONS */
+.github {
+  width: 2rem;
+}
+.linkedin {
+  width: 2.2rem;
+}
+.instagram {
+  width: 2.4rem;
+}
+.mail {
+  height: 2.6rem !important;
+  /* width: 2.4rem; */
+}
+.info {
+  margin-top: 18rem;
+  padding: 2.5rem;
+}

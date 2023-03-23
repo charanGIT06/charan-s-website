@@ -1,0 +1,29 @@
+.navbar {
+  background-color: white !important;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.nav-name {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+.navbar a {
+  font-size: 18px;
+  text-decoration: none !important;
+  border: 3px solid white;
+}
+.nav-link:hover {
+  border-bottom: 3px solid var(--blue);
+  color: var(--blue) !important;
+}
+@media (max-width: 450px) {
+  .nav-link:hover {
+    border-bottom: 3px solid white;
+    border-left: 3px solid var(--blue);
+    border-right: 3px solid var(--blue);
+  }
+}

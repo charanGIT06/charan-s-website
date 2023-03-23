@@ -1,0 +1,42 @@
+.contact-page {
+  font-family: poppins, sans-serif;
+  background-color: var(--cream);
+  height: auto;
+  padding: 2rem 0;
+}
+
+.contact-card {
+  background-color: var(--light-cream);
+  margin: 0 auto;
+}
+.label {
+  margin-right: 100%;
+}
+input {
+  border: 0px;
+  height: 3rem;
+  width: 100%;
+}
+input:focus {
+  outline: none;
+}
+.input-field {
+  background-color: var(--light-creamcream) !important;
+  border-bottom: 2px solid black;
+}
+.input-field:active,
+.input-field:focus {
+  border-bottom: 2px solid var(--blue) !important;
+}
+.form-btn-blue {
+  background-color: var(--blue);
+  color: white;
+  width: 160px;
+  border: 3px solid var(--blue);
+}
+.form-btn-blue:hover {
+  border: 3px solid var(--blue);
+  background-color: white;
+  color: var(--blue);
+  width: 160px;
+}

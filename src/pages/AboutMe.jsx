@@ -2,10 +2,10 @@ import "../css/aboutMe.css";
 import { Link } from "react-router-dom";
 
 const AboutMe = () => {
-  const github = "../src/img/github.svg";
-  const linkedin = "../src/img/linkedin.svg";
-  const mail = "../src/img/mail.svg";
-  const instagram = "../src/img/instagram.svg";
+  const github = "../public/img/github.svg";
+  const linkedin = "../public/img/linkedin.svg";
+  const mail = "../public/img/mail.svg";
+  const instagram = "../public/img/instagram.svg";
   return (
     <div className="hero d-flex flex-column flex-md-row align-items-center justify-content-center">
       <div className="box"></div>

@@ -76,10 +76,10 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/imcharank/">
             <img src={linkedin} alt="" className="social-icon linkedin me-4" />
           </a>
-          <a href="mailto:cherry200258@gmail.com">
+          <a href="mailto:imcharan.k@gmail.com">
             <img src={mail} alt="" className="social-icon mail me-4" />
           </a>
-          <a href="https://www.instagram.com/k_siva_charan/" >
+          <a href="https://www.instagram.com/k_siva_charan/">
             <img src={instagram} alt="" className="social-icon instagram" />
           </a>
         </div>

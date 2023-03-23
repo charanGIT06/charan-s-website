@@ -2,10 +2,10 @@ import "../css/aboutMe.css";
 import { Link } from "react-router-dom";
 
 const AboutMe = () => {
-  const github = "../public/img/github.svg";
-  const linkedin = "../public/img/linkedin.svg";
-  const mail = "../public/img/mail.svg";
-  const instagram = "../public/img/instagram.svg";
+  const github = "public/img/github.svg";
+  const linkedin = "public/img/linkedin.svg";
+  const mail = "public/img/mail.svg";
+  const instagram = "public/img/instagram.svg";
   return (
     <div className="hero d-flex flex-column flex-md-row align-items-center justify-content-center">
       <div className="box"></div>
@@ -13,7 +13,7 @@ const AboutMe = () => {
         <div className="pb-md-5">
           <div className="container d-flex flex-column align-items-center">
             <img
-              src="../src/img/profile-photo.png"
+              src="public/img/profile-photo.png"
               className="profile-photo"
               alt="profile-photo"
             />

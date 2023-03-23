@@ -1,5 +1,6 @@
 import "../css/aboutMe.css";
 import { Link } from "react-router-dom";
+import profilePhoto from "/public/img/profile-photo.png";
 
 const AboutMe = () => {
   const github = "public/img/github.svg";
@@ -13,7 +14,7 @@ const AboutMe = () => {
         <div className="pb-md-5">
           <div className="container d-flex flex-column align-items-center">
             <img
-              src="public/img/profile-photo.png"
+              src={profilePhoto}
               className="profile-photo"
               alt="profile-photo"
             />

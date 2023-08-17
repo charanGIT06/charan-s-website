@@ -11,9 +11,9 @@ const AboutMe = () => {
   const { theme } = useTheme();
 
   return (
-    <div className={`hero d-flex flex-column flex-md-row align-items-center justify-content-center ${theme === 'light' ? '' : 'bg-dark text-light'}`}>
+    <div className={`hero d-flex flex-column flex-md-row align-items-center justify-content-center`}>
       <div className="box"></div>
-      <div className={`hero-left p-md-5 d-flex flex-column flex-md-row align-items-center justify-content-center col-12 col-md-5 ${theme==='light'?'bg-white text-dark':'bg-dark text-dark'}`}>
+      <div className={`hero-left p-md-5 d-flex flex-column flex-md-row align-items-center justify-content-center col-12 col-md-5`}>
         <div className="pb-md-5">
           <div className="container d-flex flex-column align-items-center">
             <img

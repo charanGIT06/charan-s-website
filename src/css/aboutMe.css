@@ -11,7 +11,6 @@
   background-color: var(--cream);
   height: 100%;
 }
-
 /* .hero-right {
   height: 100%;
 } */
@@ -19,7 +18,6 @@
   .hero-left {
     background-color: white;
   }
-
   .hero-right {
     background-color: var(--cream);
   }
@@ -32,7 +30,7 @@
 }
 
 .hello {
-  font-weight: 700;
+font-weight: 700;
 }
 
 .hero-para {
@@ -43,7 +41,6 @@
 .hero-text {
   font-size: 20px;
 }
-
 .container {
   margin: auto 0;
 }
@@ -54,7 +51,6 @@
   border-radius: 50%;
   margin: 50px;
 }
-
 .socials {
   height: 80px;
   width: 100%;
@@ -64,20 +60,16 @@
 .github {
   width: 2rem;
 }
-
 .linkedin {
   width: 2.2rem;
 }
-
 .instagram {
   width: 2.4rem;
 }
-
 .mail {
   height: 2.6rem !important;
   /* width: 2.4rem; */
 }
-
 .info {
   margin-top: 18rem;
   padding: 2.5rem;

@@ -1,9 +1,15 @@
 import { Link } from "react-router-dom";
 import "../css/navbar.css";
+import { useNav } from "../context/NavContext.jsx";
+import { useTheme } from "../context/ThemeContext.jsx";
+import { MdOutlineLightMode, MdOutlineDarkMode } from "react-icons/md";
 
 const NavBar = () => {
+  const { activeTab, setActiveTab } = useNav()
+  const { theme, toggleTheme } = useTheme()
+
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary p-3 p-md-4 shadow">
+    <nav className="navbar navbar-expand-lg bg-body-dark p-3 p-md-4 shadow">
       <div className="container-fluid">
         <Link to="/" className="nav-main-heading">
           <div className="name-container d-flex flex-row align-items-center">
@@ -24,42 +30,21 @@ const NavBar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <Link to="/">
-              <a
-                className="nav-link p-1 p-md-3 text-center"
-                aria-current="page"
-                href="#"
-              >
-                About Me
-              </a>
-            </Link>
-            <Link to="/resume">
-              <a
-                className="nav-link p-1 p-md-3 text-center"
-                aria-current="page"
-                href="#"
-              >
-                Resume
-              </a>
-            </Link>
-            <Link to="/projects">
-              <a
-                className="nav-link p-1 p-md-3 text-center"
-                aria-current="page"
-                href="#"
-              >
-                Projects
-              </a>
-            </Link>
-            <Link to="/contact">
-              <a
-                className="nav-link p-1 p-md-3 text-center"
-                aria-current="page"
-                href="#"
-              >
-                Contact
-              </a>
-            </Link>
+            {
+              [['/', 'About Me'], ['/resume', 'Resume'], ['/projects', 'Projects'], ['/contact', 'Contact']].map((item, index) => {
+                return (
+                  <Link to={item[0]} onClick={() => { setActiveTab(item[0]) }}>
+                    <p className={`nav-link m-0 p-1 p-md-3 text-center ${activeTab === item[0].toLowerCase() ? 'active-tab' : ''} `}>{item[1]}</p>
+                  </Link>
+                )
+              })
+            }
+            {/* <button className="nav-link" onClick={() => {
+              toggleTheme()
+            }}>
+              {theme === 'light' ? 'dark' : 'light'}
+              {theme === 'light' ? <MdOutlineDarkMode className="ms-2" /> : <MdOutlineLightMode className="ms-2" />}
+            </button> */}
           </div>
         </div>
       </div>

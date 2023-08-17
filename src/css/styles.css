@@ -5,6 +5,7 @@
   --cream: #e6dacf;
   --light-cream: #f4ece6;
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -69,13 +70,20 @@
   background-color: var(--blue) !important;
   border: 2px solid var(--blue) !important;
 }
+
 .btn-blue:hover {
   background-color: #ffff !important;
   color: var(--blue) !important;
 }
+
 .btn-outline {
   border: 2px solid black !important;
 }
+
+.btn-outline-dark {
+  border: 2px solid white !important;
+}
+
 .btn-outline:hover {
   background-color: black !important;
   color: #ffff !important;
@@ -94,6 +102,7 @@
   height: auto;
   padding: 2rem 0;
 }
+
 .heading {
   font-weight: 700;
   font-size: 2rem;
@@ -107,6 +116,7 @@
   top: 8%;
   left: 0;
 }
+
 .project-card {
   background-color: #ffff;
   /* width: 65% !important; */
@@ -125,6 +135,7 @@
   margin: 0;
   padding: 0;
 }
+
 li {
   padding: 0;
   margin: 0;

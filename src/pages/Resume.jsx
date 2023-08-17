@@ -85,6 +85,7 @@ const Resume = () => {
             <Item content="Java" />
             <Item content="JavaScript" />
             <Item content="React" />
+            <Item content="Firebase" />
             <Item content="HTML" />
             <Item content="CSS" />
           </div>

@@ -27,6 +27,7 @@ const Footer = () => {
       <div className="attributions py-4 px-5">
         <h5>Attributions</h5>
         <div className="attr pt-2 pt-2">
+
           <a href="https://iconscout.com/icons/github" target="_blank">
             Github Logo Icon
           </a>{" "}
